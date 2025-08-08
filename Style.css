@@ -197,3 +197,44 @@ footer {
   font-size: 14px;
   color: #aaa;
 }
+/* Boutons de paiement */
+.payment-options {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.payment-options p {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.btn-payment {
+  display: block;
+  margin: 10px auto;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  width: 80%;
+  max-width: 300px;
+  text-align: center;
+  transition: opacity 0.3s;
+}
+
+.btn-payment:hover {
+  opacity: 0.9;
+}
+
+.btn-payment.moov {
+  background: #009A44;
+}
+
+.btn-payment.mtn {
+  background: #E30613;
+}
+
+.btn-payment.celtis {
+  background: #005EB8;
+}
